@@ -4,7 +4,7 @@ using namespace std;
 class AAA
 {
 public:
-	virtual void ShowYou() { cout << "AAA Exception" << endl; }
+	void ShowYou() { cout << "AAA Exception" << endl; }
 
 };
 
